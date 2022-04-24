@@ -1,0 +1,36 @@
+.containerbox0{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.SL h1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgba(255, 186, 8, 1);
+}
+.SX{
+    margin-top: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.containerbox9{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    
+}
+
+.containerbox9 img{
+    width: 30px;
+}
+
+.SM{
+    height: 1090px;
+}
+.SS{
+    margin-top: 50px;
+}
