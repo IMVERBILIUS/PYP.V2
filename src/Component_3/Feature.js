@@ -8,8 +8,8 @@ const Feature = (props) => {
 
 {props.data.map((item, index) => {
             return (
-                <div ref={props.refUvest}  key={index}>         
-                        <div className="SQ">
+                <div ref={props.refUvest} className="IO"  key={index}>         
+                        <div className="SV">
                                 
                                 <div className="SP">
                                 <img  src={item.imageUrl} alt="" ></img>

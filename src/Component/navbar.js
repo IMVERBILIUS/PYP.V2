@@ -17,7 +17,7 @@ const Navbar = () => {
       <div>
         <nav className="mobile-nav">
         
-              <Link to="/">
+              <Link to="/Landingpage">
                 <img src="foto/Home.png" alt=""></img>
               </Link>
               <Link to="/invest">

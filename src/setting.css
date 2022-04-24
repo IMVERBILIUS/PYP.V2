@@ -28,9 +28,10 @@
 
 .SP h3{
     margin-left: 30px;
-    height: 110px;
+    height: 200px;
+    margin-top: 10px;
 }
-.SQ{
+.SV{
     justify-content: center;
     position: static;
     display: flex;
@@ -40,5 +41,4 @@
 .WQ{
     height: 290px;
 }
-
 

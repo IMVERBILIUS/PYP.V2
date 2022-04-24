@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import Hero from "../../Component_4/hero";
 import Feature from "../../Component_4/feature";
 import landingPage from "../../json/LandingPage.json";
+import Navbar from "../../Component/navbar";
 
 
 
@@ -16,6 +17,7 @@ export default class Investasi extends Component {
           />
           
           <Hero/>
+          <Navbar />
         </div>
       );
     }

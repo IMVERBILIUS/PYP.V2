@@ -3,6 +3,7 @@ import Hero from "../../Component/Hero";
 import Menu from "../../Component/menu";
 import Feature from "../../Component/Feature";
 import landingPage from "../../json/LandingPage.json";
+import Navbar from "../../Component/navbar";
 
 
 
@@ -21,6 +22,7 @@ export default class LandingPage extends Component {
             refFoto={this.refFoto}
             data={landingPage.foto}
           />
+                  <Navbar />
 
           
         </div>

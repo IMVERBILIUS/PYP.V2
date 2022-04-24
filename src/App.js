@@ -15,6 +15,7 @@ import Setting from "./pages/Setting/Setting"
 import Course from "./pages/Course/Course"
 import Class from "./pages/class/class"
 import Artikel from "./pages/artikel/artikel"
+import Login from "./pages/Login/login"
 
 
 export default function App() {
@@ -23,11 +24,14 @@ export default function App() {
       <div>
 
 
-        <Navbar />
+
     
         <Switch>
         <Route path="/artikel" >
             <Artikel />
+          </Route>
+          <Route path="/landingpage" >
+            <LandingPage />
           </Route>
           <Route path="/class" >
             <Class />
@@ -42,7 +46,7 @@ export default function App() {
             <Setting />
           </Route>
           <Route path="/" >
-            <LandingPage />
+            <Login />
           </Route>
         </Switch>
       </div>
