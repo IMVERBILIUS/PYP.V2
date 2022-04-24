@@ -124,6 +124,8 @@
     border-radius: 40px;
     position: relative;
     margin-top:120px;
+    display: flex;
+    
     background-color: white;
 }
 
@@ -140,11 +142,11 @@ h6{
     color: darkgrey;
 }
 .child h6{
-    margin-left: 60px;
+    margin-left: 70px;
     margin-top: 45px;
 }
 .child h5{
-    margin-left: 55px;
+    margin-left: 65px;
 }   
 
 @media (max-width: 800px) {

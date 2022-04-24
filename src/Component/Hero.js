@@ -15,11 +15,18 @@ const Hero = () => {
                 </div>
 
                 <div className="child">
+                <div>
                     <h6>Balance</h6>
                     <h5>$129,23</h5>
-                    <h3>UTI</h3>
-                </div>   
+                    </div>
+                    <div>
+                    <h6>Total Earning</h6>
+                    <h5>+5,67%</h5>
+                    </div>
+                </div>  
+                 
             </div>
+                    
 
         </div>
 

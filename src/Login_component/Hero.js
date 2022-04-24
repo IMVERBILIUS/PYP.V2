@@ -84,14 +84,16 @@ const Feature = () =>  {
   return (
     <div className="app">
     <div className="PP">
-        <h1>UTI</h1>
+    <img src="../foto/UTI.png" alt="" />
     </div>
       <div className="">
-        <div className="title">Semuanya akan Baik baik Saja</div>
+        <div className="title">
+        Semuanya akan Baik baik Saja
+        </div>
         
        
 
-        {isSubmitted ? <div>
+        {isSubmitted ? <div className="LP">
             <Link to="/Landingpage">
             <h5>masuk ke halaman utama</h5>
             </Link>

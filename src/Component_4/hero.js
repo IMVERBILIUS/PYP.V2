@@ -63,7 +63,9 @@ const Hero = () => {
                                 </CCardText>
                             </CCardBody>
                             <CCardFooter>
+                            <Link  to="/artikel">
                                 <small className="text-medium-emphasis">Learn More</small>
+                            </Link>
                             </CCardFooter>
                             </CCard>
                         </CCol>
@@ -77,7 +79,9 @@ const Hero = () => {
                                 </CCardText>
                             </CCardBody>
                             <CCardFooter>
+                            <Link  to="/artikel">
                                 <small className="text-medium-emphasis">Learn More</small>
+                            </Link>
                             </CCardFooter>
                             </CCard>
                         </CCol>
@@ -91,7 +95,9 @@ const Hero = () => {
                                 </CCardText>
                             </CCardBody>
                             <CCardFooter>
+                            <Link  to="/artikel">
                                 <small className="text-medium-emphasis">Learn More</small>
+                            </Link>
                             </CCardFooter>
                             </CCard>
                         </CCol>
