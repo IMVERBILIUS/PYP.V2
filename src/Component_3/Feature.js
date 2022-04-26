@@ -12,8 +12,10 @@ const Feature = (props) => {
                         <div className="SV">
                                 
                                 <div className="SP">
-                                <img  src={item.imageUrl} alt="" ></img>
+                                    <img  src={item.imageUrl} alt="" ></img>
+                            
                                     <h3>{item.title}</h3>
+                                
                                 </div>
                             </div>
 

@@ -1,5 +1,11 @@
 import React from "react";
 import "../content.css";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
 const Feature = (props) => {
     return <React.Fragment>
@@ -16,7 +22,9 @@ const Feature = (props) => {
                     </div> */}
                     
                     <div className="foto2">
+                    <Link to="/Tampilan">
                         <img  src={item.imageUrl}  alt="" ></img>
+                        </Link>
                     </div>  
                     <div className="label4">
                         

@@ -16,7 +16,8 @@ import Course from "./pages/Course/Course"
 import Class from "./pages/class/class"
 import Artikel from "./pages/artikel/artikel"
 import Login from "./pages/Login/login"
-
+import Tasi from "./pages/invest/tampilan"
+import Tampilan from "./pages/Tampilan/hero"
 
 export default function App() {
   return (
@@ -29,6 +30,12 @@ export default function App() {
         <Switch>
         <Route path="/artikel" >
             <Artikel />
+          </Route>
+          <Route path="/Tampilan" >
+            <Tampilan />
+          </Route>
+          <Route path="/Tasi" >
+            <Tasi />
           </Route>
           <Route path="/landingpage" >
             <LandingPage />
